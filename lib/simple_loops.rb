@@ -9,3 +9,9 @@ def loop_message_n_times(message, n)
     puts message
   end
 end
+
+def output_array(message, n)
+  for i in 0..n
+    puts message
+  end
+end
