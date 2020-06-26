@@ -15,3 +15,11 @@ def output_array(message)
     puts value
   end
 end
+
+def return_string_array(element_array)
+  ret_array = []
+  element_array.each do |value|
+    ret_array.push(value.to_s)
+  end
+  return ret_array
+end
