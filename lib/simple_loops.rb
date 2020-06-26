@@ -1,2 +1,5 @@
 def loop_message_five_times(message)
-  5.do
+  for i in 0..5
+    puts message
+  end
+end
