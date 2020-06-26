@@ -11,7 +11,7 @@ def loop_message_n_times(message, n)
 end
 
 def output_array(message)
-  for i in 0..n
-    puts message
+  message.each do |value|
+    puts value
   end
 end
